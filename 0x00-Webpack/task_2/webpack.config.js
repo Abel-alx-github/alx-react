@@ -1,3 +1,4 @@
+const { type } = require("os");
 const path = require("path");
 
 module.exports = {
@@ -21,8 +22,10 @@ module.exports = {
         use: ["style-loader", "css-loader"],
       },
       {
-        test: /\.(gif|png|jp?g|svg)$/i,
+        test: /\.(?:icn|gif|png|jpe?g|svg)$/i,
+        type  : "asset/resource",
         use: [
+          
           "file-loader",
           {
             loader: "image-webpack-loader",
