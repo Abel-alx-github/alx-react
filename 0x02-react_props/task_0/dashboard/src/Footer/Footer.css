@@ -1,0 +1,18 @@
+
+:root {
+    --color-primary: #e30606;
+    }
+
+.App-footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    padding-bottom: 2rem;
+    top: auto;
+    position: fixed;
+    border-top: 2px var(--color-primary) solid;
+    font-style: italic;
+    font-size: small;
+  }

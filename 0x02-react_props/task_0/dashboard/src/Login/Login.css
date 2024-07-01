@@ -1,0 +1,16 @@
+:root {
+    --color-primary: #e30606;
+}
+    
+img {
+    width: 20vw;
+    height: 20vh;
+}
+  
+.App-body {
+  margin-left: 1rem;
+}
+
+  label, label + input + button {
+    margin-left: 1rem;
+ }

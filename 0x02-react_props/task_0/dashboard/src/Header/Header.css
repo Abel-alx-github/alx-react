@@ -1,0 +1,12 @@
+:root {
+    --color-primary: #e30606;
+    }
+    
+    .App-header {
+     color: var(--color-primary);
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      border-bottom: 2px var(--color-primary) solid;
+      margin: 2rem auto;
+    }
